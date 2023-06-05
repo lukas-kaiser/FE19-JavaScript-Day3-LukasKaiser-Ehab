@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 100px;
+    background-color: rgb(221, 192, 192);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(40, 69, 95);
+}
+.heading{
+    padding-top: 30px;
+    font-size: 200%;
+}
+.info{
+    padding: 20px;
+    font-size: 200%;
+}
+.foto{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 500px;
+
+}
