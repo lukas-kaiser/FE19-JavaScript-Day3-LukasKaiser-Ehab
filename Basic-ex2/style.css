@@ -15,14 +15,13 @@
     justify-content: space-around;
     align-items: center;
     color: rgb(40, 69, 95);
+    font-size: 150%;
 }
 .heading{
     padding-top: 30px;
-    font-size: 200%;
 }
 .info{
     padding: 20px;
-    font-size: 200%;
 }
 .foto{
     display: block;
@@ -30,4 +29,9 @@
     width: 50%;
     height: 500px;
 
+}
+@media screen and (max-width: 1039px) {
+    .container{
+        font-size: 90%;
+    }
 }
